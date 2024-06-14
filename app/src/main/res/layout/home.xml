@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="410dp"
+                android:layout_height="600dp"
+                android:src="@drawable/bent"></ImageView>
+
+            <ImageView
+                android:layout_width="410dp"
+                android:layout_height="600dp"
+                android:src="@drawable/mat"></ImageView>
+
+            <ImageView
+                android:layout_width="410dp"
+                android:layout_height="600dp"
+                android:src="@drawable/salado"></ImageView>
+
+            <ImageView
+                android:layout_width="410dp"
+                android:layout_height="600dp"
+                android:src="@drawable/skipping2"></ImageView>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <Button
+        android:layout_width="375dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/logg"
+        android:fontFamily="@font/poppins"
+        android:text="get started"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:id="@+id/button1"
+        tools:ignore="TouchTargetSizeCheck"></Button>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        >
+
+        <TextView
+            android:layout_width="185dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins"
+            android:text="Already an FitAura user?"
+            android:textColor="#67717d"
+            android:textSize="14dp"
+            tools:ignore="TextSizeCheck"></TextView>
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins"
+            android:text="Login in"
+            android:textColor="#7ebde5"
+            android:textSize="14dp"
+            tools:ignore="TextSizeCheck"></TextView>
+
+    </LinearLayout>
+</LinearLayout>

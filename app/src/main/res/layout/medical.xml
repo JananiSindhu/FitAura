@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <ImageButton
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="35dp"
+            android:src="@drawable/leftt"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"></ImageButton>
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:textSize="25dp"
+            android:fontFamily="@font/poppins"
+            android:text="Back"
+            android:textColor="@color/black"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="15dp"
+            ></TextView>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="125dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppins"
+        android:text="Question 5 of 6"
+        android:textColor="#7ebde5"
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck"></TextView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="50dp"
+            android:textSize="30dp"
+            android:fontFamily="@font/poppins"
+            android:text="Do you have any"
+            android:textColor="#323b65"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            ></TextView>
+
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="50dp"
+            android:textSize="30dp"
+            android:fontFamily="@font/poppins"
+            android:text="medical conditions?"
+            android:textColor="#323b65"
+            android:layout_marginLeft="20dp"
+            ></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="75dp"
+        android:orientation="horizontal"
+        android:background="@drawable/ma"
+        android:layout_marginLeft="20dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/checked2"
+            android:layout_marginLeft="10dp"
+            ></ImageView>
+
+        <TextView
+            android:layout_width="280dp"
+            android:layout_height="30dp"
+            android:textSize="20dp"
+            android:fontFamily="@font/poppins"
+            android:text="No Conditions,I'm healthy"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            ></TextView>
+
+    </LinearLayout>
+
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="1dp"
+            android:src="@drawable/dc"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"></ImageButton>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="75dp"
+        android:orientation="horizontal"
+        android:background="@drawable/ma"
+        android:layout_marginLeft="20dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/hb2"
+                android:layout_marginLeft="10dp"
+                ></ImageView>
+
+            <TextView
+                android:layout_width="280dp"
+                android:layout_height="30dp"
+                android:textSize="20dp"
+                android:fontFamily="@font/poppins"
+                android:text="Pre-Diabetes"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                ></TextView>
+
+        </LinearLayout>
+
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="1dp"
+            android:src="@drawable/dc"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"></ImageButton>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="75dp"
+        android:orientation="horizontal"
+        android:background="@drawable/ma"
+        android:layout_marginLeft="20dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/select"
+                android:layout_marginLeft="10dp"
+                ></ImageView>
+
+            <TextView
+                android:layout_width="280dp"
+                android:layout_height="30dp"
+                android:textSize="20dp"
+                android:fontFamily="@font/poppins"
+                android:text="Type1/Type2 Diabetes"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                ></TextView>
+
+        </LinearLayout>
+
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="1dp"
+            android:src="@drawable/dc"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"></ImageButton>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="75dp"
+        android:orientation="horizontal"
+        android:background="@drawable/ma"
+        android:layout_marginLeft="20dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/overweight"
+                android:layout_marginLeft="10dp"
+                ></ImageView>
+
+            <TextView
+                android:layout_width="280dp"
+                android:layout_height="30dp"
+                android:textSize="20dp"
+                android:fontFamily="@font/poppins"
+                android:text="Overweight/Obesity"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                ></TextView>
+
+        </LinearLayout>
+
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="1dp"
+            android:src="@drawable/dc"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"></ImageButton>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="75dp"
+        android:orientation="horizontal"
+        android:background="@drawable/ma"
+        android:layout_marginLeft="20dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/hypertension"
+                android:layout_marginLeft="10dp"
+                ></ImageView>
+
+            <TextView
+                android:layout_width="280dp"
+                android:layout_height="30dp"
+                android:textSize="20dp"
+                android:fontFamily="@font/poppins"
+                android:text="Hypertension"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                ></TextView>
+
+        </LinearLayout>
+
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="1dp"
+            android:src="@drawable/dc"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"></ImageButton>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="75dp"
+        android:orientation="horizontal"
+        android:background="@drawable/ma"
+        android:layout_marginLeft="20dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/burger"
+                android:layout_marginLeft="10dp"
+                ></ImageView>
+
+            <TextView
+                android:layout_width="280dp"
+                android:layout_height="30dp"
+                android:textSize="20dp"
+                android:fontFamily="@font/poppins"
+                android:text="High Cholesterol"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                ></TextView>
+
+        </LinearLayout>
+
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="1dp"
+            android:src="@drawable/dc"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"></ImageButton>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="375dp"
+        android:layout_height="50dp"
+        android:background="@drawable/logg"
+        android:fontFamily="@font/poppins"
+        android:text="Next"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        ></Button>
+
+</LinearLayout>

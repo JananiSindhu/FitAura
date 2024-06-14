@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.theme.MainActivity2">
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:textSize="30dp"
+        android:fontFamily="@font/poppins"
+        android:text="FitAura"
+        android:textColor="#192e4f"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        ></TextView>
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:fontFamily="@font/poppins"
+        android:text="Login to your Account"
+        android:textColor="#323b65"
+        android:layout_marginLeft="20dp"
+        android:textStyle="normal"
+        ></TextView>
+
+    <TextView
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/poppins"
+        android:text="Get access to personalized diets,health tracker, challenges and more."
+        android:textColor="#67717d"
+        android:textSize="15dp"
+        android:textStyle="normal"
+        tools:ignore="TextSizeCheck"></TextView>
+
+    <TextView
+        android:layout_width="380dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/poppins"
+        android:text="Enter Your Mobile number"
+        android:textColor="#67717d"
+        android:textSize="13dp"
+        android:textStyle="normal"
+        tools:ignore="TextSizeCheck"></TextView>
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:background="@drawable/log"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="+91"
+            android:textColor="#8594a5"
+            android:textSize="20dp"
+            ></Button>
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/log"
+            android:textColor="#8594a5"
+            android:textSize="20dp"
+            android:inputType=" number"
+            android:hint=" Number"
+            android:id="@+id/number_input"
+            tools:ignore="SpeakableTextPresentCheck"></EditText>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Button"
+            tools:ignore="TouchTargetSizeCheck" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/logg"
+        android:textColor="@color/white"
+        android:text="Continue" ></Button>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="60dp"
+        >
+
+        <TextView
+            android:layout_width="380dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="@font/poppins"
+            android:text="By Clicking Continue, you are Agreeing to Our"
+            android:textColor="#67717d"
+            android:textSize="15dp"
+            android:textStyle="normal"
+            tools:ignore="TextSizeCheck,TextSizeCheck"></TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="165dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/poppins"
+                android:text="Terms and Condition"
+                android:textColor="#7ebde5"
+                android:textSize="15dp"
+                android:textStyle="normal"
+                tools:ignore="TextSizeCheck"></TextView>
+
+            <TextView
+                android:layout_width="35dp"
+                android:layout_height="20dp"
+                android:fontFamily="@font/poppins"
+                android:text="and"
+                android:textColor="#67717d"
+                android:textSize="15dp"
+                android:textStyle="normal"
+                tools:ignore="TextSizeCheck"></TextView>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="20dp"
+                android:fontFamily="@font/poppins"
+                android:text="Privacy Policy"
+                android:textColor="#7ebde5"
+                android:textSize="15dp"
+                android:textStyle="normal"
+                tools:ignore="TextSizeCheck,TextSizeCheck"></TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <ImageButton
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="35dp"
+            android:src="@drawable/leftt"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"></ImageButton>
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:textSize="25dp"
+            android:fontFamily="@font/poppins"
+            android:text="Back"
+            android:textColor="@color/black"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="15dp"
+            ></TextView>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="125dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppins"
+        android:text="Question 2 of 6"
+        android:textColor="#7ebde5"
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck"></TextView>
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:textSize="30dp"
+        android:fontFamily="@font/poppins"
+        android:text="Create a Username"
+        android:textColor="#323b65"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        ></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="horizontal"
+        >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:background="@drawable/log"
+        android:layout_marginTop="21dp"
+        android:layout_marginLeft="20dp"
+        android:text="Mail"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        ></Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/log"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="17dp"
+        android:textColor="#8594a5"
+        android:textSize="20dp"
+        android:text="Username"
+        ></Button>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="380dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/poppins"
+        android:text="Use alphabets,numbers and underscore only"
+        android:textColor="#67717d"
+        android:textSize="13dp"
+        tools:ignore="TextSizeCheck"></TextView>
+
+    <Button
+        android:layout_width="375dp"
+        android:layout_height="50dp"
+        android:background="@drawable/logg"
+        android:fontFamily="@font/poppins"
+        android:text="Next"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="200dp"
+        ></Button>
+
+</LinearLayout>

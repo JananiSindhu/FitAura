@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e3ebf3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <LinearLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:orientation="vertical"
+            android:background="@drawable/cx"
+            android:elevation="10dp"
+            android:layout_marginTop="10dp"
+
+            >
+
+            <ImageButton
+                android:layout_width="34dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/user1"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"></ImageButton>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:text="Hi, Jane"
+            android:textColor="#343a6b"
+            android:textSize="18dp"
+            android:fontFamily="@font/poppins"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            ></TextView>
+
+
+        <LinearLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:elevation="10dp"
+            android:background="@drawable/cx">
+
+            <ImageButton
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:src="@drawable/bell4"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"></ImageButton>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="30dp"
+        android:text="Let's check your Activity"
+        android:textColor="#343a6b"
+        android:textSize="20dp"
+        android:fontFamily="@font/poppins"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="20dp"
+        ></TextView>
+
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="250dp"
+        android:orientation="vertical"
+        android:background="@drawable/mxx"
+        android:padding="8dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="15dp"
+        android:elevation="10dp"
+        >
+        <LinearLayout
+            android:layout_width="410dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="110dp"
+                        android:layout_height="25dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/poppins"
+                        android:text="Rewards Points"
+                        android:textColor="#575d62"
+                        android:textSize="12dp"
+                        tools:ignore="TextSizeCheck"></TextView>
+
+                    <TextView
+                        android:layout_width="35dp"
+                        android:layout_height="40dp"
+                        android:textSize="30dp"
+                        android:fontFamily="@font/poppins"
+                        android:text="0"
+                        android:textColor="#343a6b"
+                        android:layout_marginLeft="20dp"
+                        android:gravity="center"
+                        ></TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="130dp"
+                        android:layout_height="25dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/poppins"
+                        android:text="Heart Attack Risk "
+                        android:textColor="#575d62"
+                        android:textSize="12dp"
+                        tools:ignore="TextSizeCheck"></TextView>
+
+                    <TextView
+                        android:layout_width="35dp"
+                        android:layout_height="30dp"
+                        android:textSize="30dp"
+                        android:fontFamily="@font/poppins"
+                        android:text="-"
+                        android:textColor="#343a6b"
+                        android:layout_marginLeft="30dp"
+                        ></TextView>
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageButton
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/letter3"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"></ImageButton>
+        </LinearLayout>
+
+        <View
+            android:layout_width="350dp"
+            android:layout_height="4dp"
+            android:background="#9e9da3"
+            android:layout_marginLeft="20dp"
+            ></View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/poppins"
+                android:text="April"
+                android:textColor="#575d62"
+                android:textSize="12dp"
+                tools:ignore="TextSizeCheck"></TextView>
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="250dp"
+                android:fontFamily="@font/poppins"
+                android:text="0/2000pts"
+                android:textColor="#575d62"
+                android:textSize="12dp"
+                tools:ignore="TextSizeCheck"></TextView>
+        </LinearLayout>
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="30dp"
+            android:textSize="20dp"
+            android:fontFamily="@font/poppins"
+            android:text="Begin your Journey with FitAura"
+            android:textColor="#343a6b"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            ></TextView>
+
+        <TextView
+            android:layout_width="310dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="@font/poppins"
+            android:text="Let's begin tracking your health metrics so you start your journey with FitAura"
+            android:textColor="#575d62"
+            android:textSize="12dp"
+            tools:ignore="TextSizeCheck"></TextView>
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/mxxx"
+            android:fontFamily="@font/poppins"
+            android:text="Start tracking"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            tools:ignore="TouchTargetSizeCheck"></Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="380dp"
+        android:background="@drawable/cxx"
+        android:layout_marginLeft="20dp"
+        android:elevation="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:src="@drawable/exercise2"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                ></ImageView>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="165dp"
+            android:layout_height="25dp"
+            android:textSize="18dp"
+            android:fontFamily="@font/poppins"
+            android:text="Workout At Home"
+            android:textColor="#343a6b"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            ></TextView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/cxxx"
+        android:layout_marginLeft="20dp"
+        android:elevation="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            >
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:src="@drawable/fruits"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                ></ImageView>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="25dp"
+            android:textSize="18dp"
+            android:fontFamily="@font/poppins"
+            android:text="Consult our Nutritionist"
+            android:textColor="#343a6b"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            ></TextView>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="120dp"
+        android:orientation="vertical"
+        android:background="@drawable/mxx"
+        android:padding="8dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginLeft="15dp"
+        android:elevation="10dp"
+        >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="1dp"
+            >
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:src="@drawable/happiness3"
+                android:layout_marginLeft="10dp"
+                ></ImageView>
+
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="280dp"
+            android:layout_height="30dp"
+
+            android:text="How was your day?"
+            android:textColor="#343a6b"
+            android:textSize="20dp"
+            android:fontFamily="@font/poppins"
+            android:layout_marginTop="15dp"
+            ></TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@drawable/mxxx"
+        android:layout_marginLeft="90dp"
+        android:elevation="10dp"
+        android:layout_marginTop="580dp"
+        >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="100dp"
+        >
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/stickynotes"
+            ></ImageView>
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="165dp"
+        android:layout_height="25dp"
+        android:textSize="18dp"
+        android:fontFamily="@font/poppins"
+        android:text="Add your day"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        ></TextView>
+
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+    <LinearLayout
+        android:layout_width="65dp"
+        android:layout_height="80dp"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        >
+
+    <LinearLayout
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginLeft="5dp"
+        >
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="1dp"
+            android:src="@drawable/home1"
+
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"></ImageButton>
+    </LinearLayout>
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/poppins"
+            android:text="HOME"
+            android:textColor="#343a6b"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginLeft="25dp"
+            >
+
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="1dp"
+                android:src="@drawable/dumbbell"
+
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"></ImageButton>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="105dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="15dp"
+            android:fontFamily="@font/poppins"
+            android:text="FITCOACH"
+            android:textColor="#343a6b"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            >
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="1dp"
+                android:src="@drawable/fruits2"
+
+                tools:ignore="SpeakableTextPresentCheck"></ImageButton>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/poppins"
+            android:text="FITFEAST"
+            android:textColor="#343a6b"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginLeft="15dp"
+            >
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="1dp"
+                android:src="@drawable/man"
+
+                tools:ignore="SpeakableTextPresentCheck"></ImageButton>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="15dp"
+            android:fontFamily="@font/poppins"
+            android:text="TRACK"
+            android:textColor="#343a6b"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck"></TextView>
+
+    </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

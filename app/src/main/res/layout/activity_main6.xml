@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity6">
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:background="@drawable/cx"
+        android:elevation="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:elevation="10dp"
+            >
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="2dp"
+                android:src="@drawable/back2"
+                android:id="@+id/Imagebutton6"
+                tools:ignore="SpeakableTextPresentCheck"></ImageButton>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:text="Connect Wearables"
+            android:textSize="20dp"
+            android:fontFamily="@font/poppins"
+            android:textColor="#575d62"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            ></TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/mxx"
+        android:layout_marginTop="10dp"
+        android:elevation="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <LinearLayout
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:orientation="horizontal"
+                android:background="@drawable/cx"
+                android:gravity="center"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                android:elevation="10dp"
+                android:layout_marginTop="10dp"
+                >
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="55dp"
+                    android:src="@drawable/fit"
+                    ></ImageView></LinearLayout>
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="23dp"
+                android:textSize="18dp"
+                android:fontFamily="@font/poppins"
+                android:text="Fitbit"
+                android:textColor="#575d62"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                ></TextView>
+
+        </LinearLayout>
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/dc"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"></ImageButton>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/mxx"
+        android:layout_marginTop="10dp"
+        android:elevation="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <LinearLayout
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:orientation="horizontal"
+                android:background="@drawable/cx"
+                android:gravity="center"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                android:elevation="10dp"
+                android:layout_marginTop="10dp"
+                >
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="55dp"
+                    android:src="@drawable/googlefit"
+                    ></ImageView></LinearLayout>
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="23dp"
+                android:textSize="18dp"
+                android:fontFamily="@font/poppins"
+                android:text="Google Fit"
+                android:textColor="#575d62"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                ></TextView>
+
+        </LinearLayout>
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/dc"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"></ImageButton>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/mxx"
+        android:layout_marginTop="10dp"
+        android:elevation="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <LinearLayout
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:orientation="horizontal"
+                android:background="@drawable/cx"
+                android:gravity="center"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                android:elevation="10dp"
+                android:layout_marginTop="10dp"
+                >
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="55dp"
+                    android:src="@drawable/garmin"
+                    ></ImageView></LinearLayout>
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="23dp"
+                android:textSize="18dp"
+                android:fontFamily="@font/poppins"
+                android:text="Garmin"
+                android:textColor="#575d62"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                ></TextView>
+
+        </LinearLayout>
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/dc"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"></ImageButton>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/mxx"
+        android:layout_marginTop="10dp"
+        android:elevation="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <LinearLayout
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:orientation="horizontal"
+                android:background="@drawable/cx"
+                android:gravity="center"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                android:elevation="10dp"
+                android:layout_marginTop="10dp"
+                >
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="55dp"
+                    android:src="@drawable/zwift"
+                    ></ImageView></LinearLayout>
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="23dp"
+                android:textSize="18dp"
+                android:fontFamily="@font/poppins"
+                android:text="Zwift"
+                android:textColor="#575d62"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                ></TextView>
+
+        </LinearLayout>
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/dc"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"></ImageButton>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/mxx"
+        android:layout_marginTop="10dp"
+        android:elevation="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <LinearLayout
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:orientation="horizontal"
+                android:background="@drawable/cx"
+                android:gravity="center"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                android:elevation="10dp"
+                android:layout_marginTop="10dp"
+                >
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="55dp"
+                    android:src="@drawable/oman"
+                    ></ImageView></LinearLayout>
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="23dp"
+                android:textSize="18dp"
+                android:fontFamily="@font/poppins"
+                android:text="Omran"
+                android:textColor="#575d62"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                ></TextView>
+
+        </LinearLayout>
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/dc"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"></ImageButton>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/mxx"
+        android:layout_marginTop="10dp"
+        android:elevation="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <LinearLayout
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:orientation="horizontal"
+                android:background="@drawable/cx"
+                android:gravity="center"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                android:elevation="10dp"
+                android:layout_marginTop="10dp"
+                >
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="55dp"
+                    android:src="@drawable/freestyle"
+                    ></ImageView></LinearLayout>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="23dp"
+                android:textSize="18dp"
+                android:fontFamily="@font/poppins"
+                android:text="FreeStyle Libra"
+                android:textColor="#575d62"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                ></TextView>
+
+        </LinearLayout>
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="62dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/dc"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"></ImageButton>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="23dp"
+                android:textSize="16dp"
+                android:fontFamily="@font/poppins"
+                android:text="Data Privacy :"
+                android:textColor="#575d62"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                ></TextView>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="23dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/poppins"
+                android:text="The data obtained from these devices"
+                android:textColor="#575d62"
+                android:textSize="13dp"
+                tools:ignore="TextSizeCheck"></TextView>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/poppins"
+            android:text="would be secured and stored locally.Data will not be"
+            android:textColor="#575d62"
+            android:textSize="13dp"
+            tools:ignore="TextSizeCheck"></TextView>
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="23dp"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/poppins"
+            android:text="shared with anyone outside this Organisation"
+            android:textColor="#575d62"
+            android:textSize="13dp"
+            tools:ignore="TextSizeCheck"></TextView>
+    </LinearLayout>
+
+
+
+</LinearLayout>
